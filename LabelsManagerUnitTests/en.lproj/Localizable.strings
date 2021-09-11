@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  LabelsManagerUnitTests
+
+  Created by Станислав on 11.09.2021.
+  
+*/
+
+
+//MARK: - Auth
+button = "Button";
+alert = "Alert";
+alertButton = "Alert Button";
+registrationButton = "Registration";
+
+
+//MARK: - Main
+
+firstButton = "First button";
+secondButton = "Second button";
+thirdButton = "Third button";
+
+

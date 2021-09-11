@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "9C6582D9-B8E5-465C-AD12-A070145824FC",
+      "name" : "Eng",
+      "options" : {
+        "language" : "en",
+        "region" : "GB"
+      }
+    },
+    {
+      "id" : "7A4545F7-C271-4B68-986C-75056C9AC7D4",
+      "name" : "Rus",
+      "options" : {
+        "language" : "ru",
+        "region" : "RU"
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:LabelsManagerUnitTests.xcodeproj",
+        "identifier" : "85C528B526ECEABC004D4317",
+        "name" : "LabelsManagerUnitTestsTests"
+      }
+    }
+  ],
+  "version" : 1
+}

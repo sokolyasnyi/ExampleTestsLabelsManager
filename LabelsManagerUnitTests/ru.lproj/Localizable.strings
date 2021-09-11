@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  LabelsManagerUnitTests
+
+  Created by Станислав on 11.09.2021.
+  
+*/
+
+//MARK: - Auth
+button = "Кнопка";
+alert = "Алерт";
+alertButton = "Кнопка алерт";
+registrationButton = "Регистрация";
+
+
+//MARK: - Main
+firstButton = "Первая кнопка";
+secondButton = "Вторая кнопка";
+thirdButton = "Третья кнопка";
