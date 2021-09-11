@@ -15,6 +15,16 @@ struct LabelsManager {
         case alert
         case alertButton
         case registrationButton
+        
+        var rawValue: String {
+            switch self {
+            case .alert: return "alert".localized
+            case .alertButton: return "alertButton".localized
+            case .button: return "button".localized
+            case .registrationButton: return "registrationButton".localized
+                
+            }
+        }
     }
     
     enum Main: CaseIterable {
@@ -33,18 +43,6 @@ struct LabelsManager {
 
     }
     
-}
-
-extension LabelsManager.Auth {
-    var rawValue: String {
-        switch self {
-        case .alert: return "alert".localized
-        case .alertButton: return "alertButton".localized
-        case .button: return "button".localized
-        case .registrationButton: return "registrationButton".localized
-            
-        }
-    }
 }
 
 extension String {
